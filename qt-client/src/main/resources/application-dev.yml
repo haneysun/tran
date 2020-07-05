@@ -8,11 +8,11 @@ eureka:
 spring:
   application:
     name: qt-client
-#  rabbitmq:
-#    host: ${RABBIT_MQ_HOST:localhost}
-#    port: ${RABBIT_MQ_PORT:5672}
-#    username: ${RABBIT_MQ_USERNAME:yang}
-#    password: ${RABBIT_MQ_PASSWORD:yang}
+  rabbitmq:
+    host: ${RABBIT_MQ_HOST:39.102.83.188}
+    port: ${RABBIT_MQ_PORT:5672}
+    username: ${RABBIT_MQ_USERNAME:admin}
+    password: ${RABBIT_MQ_PASSWORD:admin}
   redis:
     database: 0
     host: 127.0.0.1
@@ -35,8 +35,8 @@ management:
       exposure:
         include: '*'
       base-path: /
-vpnproxy:
-  enable: true
-  ip: 127.0.0.1
-  port: 64035
+#vpnproxy:
+#  enable: true
+#  ip: 127.0.0.1
+#  port: 64035
 
