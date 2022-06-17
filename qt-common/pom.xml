@@ -14,7 +14,7 @@
 
         <okhttp3.version>3.12.1</okhttp3.version>
 
-        <fastjson.version>1.2.47</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
 
     </properties>
     <artifactId>qt-common</artifactId>
